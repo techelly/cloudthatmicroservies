@@ -36,7 +36,10 @@ public class CustomerService {
 
     public Customer addCustomer(Customer customer) {
         log.info("Adding customer {} to database", customer.getName());
-        Customer customer2 = customerRepository.insert(customer);
+        //For Mongo DB use below line
+        //Customer customer2 = customerRepository.insert(customer);
+        //For Postgresql or MySQL or anyother RDBMS
+        Customer customer2 = customerRepository.save(customer);
         log.info("Added customer {} successfully", customer2.getName());
         return customer2;
     }
