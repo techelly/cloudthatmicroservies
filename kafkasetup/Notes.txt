@@ -1,0 +1,5 @@
+Create an empty directory and create a docker-compose.yml file. 
+Copy the above content and paste that into the file. Now issue the below command to bring the entire kafka cluster up and running. 
+The docker-compose will create 1 zookeeper, 3 kafka-brokers and 1 kafka manager. 
+It could take couple of minutes to download all the docker images and start the cluster. 
+Be patient. We could see a lot of activities in the console log. When the logs are slowing down, the app could have started.

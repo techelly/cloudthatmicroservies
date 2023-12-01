@@ -9,7 +9,7 @@ import com.techelly.cqrspattern.service.OrderCommandService;
 
 @RestController
 @RequestMapping("po")
-@ConditionalOnProperty(name = "app.write.enabled", havingValue = "true")
+@ConditionalOnProperty(name = "app.write.enabled", havingValue = "false")
 public class OrderCommandController {
 
     @Autowired

@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("po")
-@ConditionalOnProperty(name = "app.write.enabled", havingValue = "false")
+@ConditionalOnProperty(name = "app.write.enabled", havingValue = "true")
 public class OrderQueryController {
 
     @Autowired
