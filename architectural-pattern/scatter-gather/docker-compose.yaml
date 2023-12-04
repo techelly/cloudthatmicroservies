@@ -4,21 +4,21 @@ services:
     image: nats:alpine
   airline1:
     build: ./airline
-    image: vinsdocker/airline
+    image: airline
     environment:
       - NATS_SERVER=nats://nats-server:4222
       - AIRLINE_NAME=DELTA
     depends_on:
       - nats-server
   airline2:
-    image: vinsdocker/airline
+    image: airline
     environment:
       - NATS_SERVER=nats://nats-server:4222
       - AIRLINE_NAME=FRONTIER
     depends_on:
       - nats-server
   airline3:
-    image: vinsdocker/airline
+    image: airline
     environment:
       - NATS_SERVER=nats://nats-server:4222
       - AIRLINE_NAME=UNITED_AIRLINE
@@ -26,7 +26,7 @@ services:
       - nats-server
   flight-search:
     build: ./flight-search
-    image: vinsdocker/flight-search
+    image: flight-search
     depends_on:
       - nats-server
     ports:

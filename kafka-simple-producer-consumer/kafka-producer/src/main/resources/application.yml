@@ -1,7 +1,7 @@
 spring:
   kafka:
     bootstrap-servers:
-      - localhost:9091
+      - localhost:9092
     template:
       default-topic: random-number
     producer:
