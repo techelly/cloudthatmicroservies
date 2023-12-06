@@ -1,0 +1,10 @@
+com\techelly\cacheaside\service\impl\ProductServiceWithNoCache.class
+com\techelly\cacheaside\controller\ProductController.class
+com\techelly\cacheaside\util\EntityDtoUtil.class
+com\techelly\cacheaside\config\RedisConfig.class
+com\techelly\cacheaside\service\impl\ProductServiceWithRedisCache.class
+com\techelly\cacheaside\service\ProductService.class
+com\techelly\cacheaside\entity\Product.class
+com\techelly\cacheaside\repository\ProductRepository.class
+com\techelly\cacheaside\dto\ProductDto.class
+com\techelly\cacheaside\RedisSpringApplication.class

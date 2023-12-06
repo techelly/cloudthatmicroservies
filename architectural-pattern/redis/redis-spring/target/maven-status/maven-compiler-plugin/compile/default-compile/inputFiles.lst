@@ -1,0 +1,10 @@
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\service\impl\ProductServiceWithNoCache.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\dto\ProductDto.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\repository\ProductRepository.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\service\ProductService.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\RedisSpringApplication.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\util\EntityDtoUtil.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\config\RedisConfig.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\entity\Product.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\service\impl\ProductServiceWithRedisCache.java
+D:\cloudthatmicroservies\architectural-pattern\redis\redis-spring\src\main\java\com\techelly\cacheaside\controller\ProductController.java
