@@ -1,0 +1,10 @@
+com\techelly\config\CustomUserDetails.class
+com\techelly\dto\AuthRequest.class
+com\techelly\entity\UserCredential.class
+com\techelly\IdentityServiceApplication.class
+com\techelly\controller\AuthController.class
+com\techelly\service\JwtService.class
+com\techelly\service\AuthService.class
+com\techelly\config\AuthConfig.class
+com\techelly\repository\UserCredentialRepository.class
+com\techelly\config\CustomUserDetailsService.class
