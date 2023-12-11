@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty: DEBUG
+
+okta:
+ oauth2:
+  issuer: https://dev-11746779.okta.com/oauth2/default
+  client-id: 0oadpw51s5A8wAC025d7
+  client-secret: yfg0D_odHGzk_RyEBoT2iEtdOS8r6fPgYDz0uzu4vy5PqeS_T_DhXVxtQv21LBBm
